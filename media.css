@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #19497A;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.8);
+    z-index: 3;
+    position: absolute;
+  }
+  .sign{
+      padding: 0px;
+      float: right;
+      margin: 2px 10px 2px 0px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .topnav .panel{
+      margin : 0px 100px;
+    padding : 0px 100px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active:hover {
+    background-color: #19497A ;
+    color: black;
+  }
+  .topnav a.active {
+    color: white;
+      padding : 0px 10px;
+  }
+  .topnav .sign .up {
+      border: 2px solid #ddd;
+      background-color: #19497A;
+      color: white;
+      padding: 10px 16px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  .topnav .sign .up:hover{
+      background-color: #ddd;
+      color :black;
+  }
+  .topnav .sign .in {
+      border: 2px solid #ddd;
+      background-color: #19497A;
+      color: white;
+      padding: 10px 16px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  .topnav .sign .in:hover{
+      background-color: #ddd;
+      color :black;
+  }
+
+  /* lihat berkas */
+.lihat{
+    display: inline-flex;
+    color: gray;    
+    padding : 4% 5% 0px 5%;
+    height : auto;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    margin-top: 0%;
+    position: absolute;
+    border-bottom:  4px solid rgba(63, 187, 119, 0.8);
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.322);
+}
+#plus{
+    z-index: 4;
+    position: absolute;
+    margin : 5.5% 0% 0% 50%;
+}
+.lihat p{
+    padding-left: 4%;
+}
+.lihat a{
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.lihat a:hover{
+    background-color:  rgba(190, 190, 190, 0.219);
+}
+
+.konten{
+    z-index: 1;
+    padding: 100px 0px 0px 0px;
+    height: auto;
+    background-color: rgba(230, 230, 230, 0.651);
+}
+.samping{
+    background-color:white;
+    width: 20%;
+    height : 20cm;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.219);
+    margin-top: -20px; 
+    padding : 20px 0px 0px 0px;
+    margin-bottom: 0%; 
+
+}
+.samping h1{
+    color : rgb(54, 54, 54);
+    padding : 60px 0px 20px 20px;
+}
+#garisdalam{
+    width :99.4%;
+    border: 1pt solid rgba(151, 151, 151, 0.8);
+}
+.samping button{
+    width : 100%;
+    background-color: white;
+    padding: 14px 0% 14px 7px;
+    font-size: 20px;
+    cursor: pointer;
+    border : 2px;
+}
+.samping button:hover{
+    background-color: rgba(190, 190, 190, 0.219);
+}
+
+.samping img{
+    float: left;
+    margin-top: -9px;
+    padding : 5px 0px 0px 40px;
+    margin-inline-end: -20%;
+}
+
+
+
+
+
+
+
