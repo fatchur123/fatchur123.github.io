@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="pencarian.css" rel="stylesheet" type="text/css" media="screen" />
+<title>Silsilahku</title>
+</head>
+
+<body>
+<div class="topnav">
+		<a class="active" href="beranda.html"><img src="logo silsilah.png" height="50px" ></a>
+		<div class="panel">
+			<a class="nav" href="beranda.html"> Beranda</a>
+			<a class="nav" href="">Silsilah Keluarga</a>
+			<a class="nav" href="pencarian.html">Pencarian</a>
+			<a href="Media.html">Media</a>	
+		</div>
+		<div class = "sign">
+			<a href="login.html"><button class="sign in">Masuk</button></a> 
+			 <a href="register.html"><button class="sign up">Daftar</button></a>
+		 </div>
+	</div>
+<!-- 
+KONTEN -->
+<div class = "isi">
+	<div class="atas">
+		<img src="logo silsilah2.png" width="280px" class="logo">
+		<img src="peta.png" width="500px" class="peta" >
+		<div class="text">
+			<h2>Temukan cerita historis dari leluhurmu.<br>
+				Cari mereka dari seluruh Wilayah Indonesia. </h2>
+		<div class="box1">
+		  <img src="garis2.png" width="100%" height="4px" >
+		  <div class = "siapa">
+			  <strong>
+				 <p>SIAPA</p> 
+			  </strong> 
+			  <input type="text" id="myInput"  placeholder="Nama Depan" >
+			  <input type="text" id="myInput"  placeholder="Nama Belakang" >
+			  <label>
+				  <input  id="input" type="checkbox" checked="checked" class="cekbox">Variasi Nama
+				</label>
+			</div>
+		</div>
+		<div class ="peringatan">
+			<img src="warning red.png" width="30px" height="25" style="display:inline-block" >
+			<p style = "display: inline-block">
+				Kolom dibawah ini merupakan opsional</p> 
+		</div>
+		<div class="box2">
+			<div class = "judul">
+				<label for="tempat">Tempat</label>
+				<label class = "tahun" for="tahun">Tahun</label>
+			</div>		
+			<div class = "kelahiran">
+				<strong>
+					<p>KELAHIRAN</p> 
+				</strong>
+				<input type="text" id="myInput"  class = "tempat" placeholder="Lokasi" >
+				<input type="text" id="input"  class = "tahun" placeholder="Dari" >
+				<input type="text" id="input"  class = "tahun" placeholder="Sampai" >
+				</div>
+			</div>
+			<div class="box3">
+				<div class = "kelahiran">
+					<strong>
+						<p>JENIS KELAMIN</p> 
+					</strong>
+					<label class="pilihan">Pria
+						<input type="radio" checked="checked" name="radio">
+						<span class="checkmark"></span>
+						</label>
+					<label class="pilihan">Wanita
+						<input   type="radio" name="radio">
+						<span class="checkmark"></span>
+						</label>
+					<label class="pilihan">Tidak Diketahui
+						<input type="radio" name="radio">
+						<span class="checkmark"></span>
+						</label>
+					</div>
+				</div>
+			<div class="box4">
+				<div class = "kelahiran">
+					<strong>
+						<p>SUKU/RAS</p> 
+					</strong>	
+					<select id="suku" name="suku">	
+						<option value="Jawa">Jawa</option>
+						<option value="Batak">Batak</option>
+						<option value="Melayu">Melayu</option>
+					</select>
+				</div>
+			</div>
+			<div class="box4">
+				<div class = "kelahiran">
+					<strong>
+						<p>PROVINSI</p> 
+					</strong>	
+					<select class ="suku" name="suku">	
+						<option value="Jawa">Jawa Timur</option>
+						<option value="Batak">Kalimantan TImur</option>
+						<option value="Melayu">Sumatra Selatan</option>
+					</select>
+				</div>
+			</div>
+			<div class="box5">
+				<div class = "kelahiran">
+					<strong>
+						<p style="font-size:18px">KATA KUNCI <br>TAMBAHAN</p> 
+					</strong>	
+					<input type="text" id="myInput" class = "tempat" placeholder="Kata kunci" >
+				</div>
+			</div>	
+			</div>
+			<div class="box6">
+				<input type="submit" value="Mulai Pencarian">
+				<input type="reset" value="Hapus Pencarian" class= "hapus" >
+				
+			</div>
+			</div>
+		</div>
+		</div>
+	
+	
+</div>
+
+
+</body>
+</html>
