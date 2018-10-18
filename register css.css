@@ -244,11 +244,10 @@ body {
   bottom: 175px;
   left: 725px;
 }
-
 .text2 .ke1{
   position: relative;
   top: 105px;
-  right: 700px;
+  right: 900px;
   font-family: "Times New Roman", Times, serif;
   color : white;
   font-size: 24px;
@@ -256,8 +255,8 @@ body {
 }
 .text2 .ke2{
   position: relative;
-  top: 60px;
-  right: 700px;
+  top: 40px;
+  right: 900px;
   font-family: "Times New Roman", Times, serif;
   color : white;
   font-size: 24px;
@@ -265,8 +264,8 @@ body {
 }
 .text2 .ke3{
   position: relative;
-  top: 20px;
-  right: 700px;
+  top: -15px;
+  right: 900px;
   font-family: "Times New Roman", Times, serif;
   color : white;
   font-size: 24px;
@@ -274,8 +273,8 @@ body {
 }
 .text2 .ke4{
   position: relative;
-  top: -20px;
-  right: 700px;
+  top: -70px;
+  right: 900px;
   font-family: "Times New Roman", Times, serif;
   color : white;
   font-size: 24px;
@@ -283,8 +282,8 @@ body {
 }
 .text2 .ke5{
   position: relative;
-  top: -70px;
-  right: 700px;
+  top: -130px;
+  right: 900px;
   font-family: "Times New Roman", Times, serif;
   color : white;
   font-size: 24px;
