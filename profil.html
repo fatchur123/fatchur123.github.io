@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="profil.css" rel="stylesheet" type="text/css" media="screen" />
+	<title>Silsilahku</title>
+</head>
+
+<body>
+	<div class="topnav">
+		<a class="active" href="beranda.html"><img src="logo silsilah.png" height="40px" ></a>
+		<div class="panel">
+			<a class="nav" href=""> Beranda</a>
+			<a class="nav" href="">Silsilah Keluarga</a>
+			<a class="nav" href="">Pencarian</a>
+			<a href="">Media</a>	
+		</div>
+		<div class = "sign">
+			<button onclick="myFunction()" class="sign up">Akun Saya</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href=""> <img src="profil.png" width="27px">
+				Profil</a>
+				<a href=""> <img src="setting.png" width="27px">
+				Settiing</a>
+				<a href=""><img src="logout.png" width="27px">
+				Log Out</a>
+			</div>
+		</div>
+	</div>
+	<script>
+		/* membuka droopdown */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+            //menutup dropdown
+            window.onclick = function(event) {
+            	if (!event.target.matches('.sign .up')) {
+
+            		var dropdowns = document.getElementsByClassName("dropdown-content");
+            		var i;
+            		for (i = 0; i < dropdowns.length; i++) {
+            			var openDropdown = dropdowns[i];
+            			if (openDropdown.classList.contains('show')) {
+            				openDropdown.classList.remove('show');
+            			}
+            		}
+            	}
+            }
+        </script>
+
+        <!--KONTEN-->
+        <div class = "isi">
+        	<div class="atas">
+        		<img class="gambarprofil" src="gambar profil.png" height="10%">
+        		<div class="topnav2">
+        			<div class="panel">
+        				<a class="nav2" href=""> Overview</a>
+        				<a class="nav2" href="">Fact & events</a>
+        				<a class="nav2" href="">Relations</a>
+        				<a class="nav2" href="">Media</a>
+        				<a class="nav2" href="">Notes</a>
+
+        			</div>
+        		</div>
+        	</div>
+        	<div>
+        		<h2 class="namaprofil">Andra Backbone</h2>
+        		<h2 class="namaprofil2">Jember,12 Januari 1998</h2>
+        	</div>
+        </div>
+
+
+        <div class="isi2">
+        	<div class="atas2">
+        		<img class="gambarbayi" src="bayi.png" height="60px">
+
+        	</div>
+        	<h2 class="timeline">Timeline</h2>
+        	<h2 class="lahir">Lahir 1998</h2>
+        	<h2 class="lahir2">Andra lahir pada tahun 1998 di jember</h2>
+        	<h2 class="lahir3">search for her birth record</h2>
+        </div>
+
+        <div class="isi3">
+        	<h2 class="investigate">Think to investigate</h2>
+        	<form class="form">
+        		<input  class = "box" placeholder="Lokasi">
+        		<button type="submit">Cari</button>
+        	</form>
+
+        </div>
+
+        <div class="isi4">
+        	<h2 class="relasi">Relasi</h2>
+
+        </div>
+
+        </html>

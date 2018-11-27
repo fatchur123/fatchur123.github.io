@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width = device-width, initial scale = 1.0">
+<link href="beranda akun.css" rel="stylesheet" type="text/css" media="screen" />
+<title>beranda akun</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="beranda.html"><img src="logo silsilah.png" height="50px" ></a>
+        <div class="panel">
+            <a class="nav" href="beranda.html"> Beranda</a>
+            <div class = "silsilah">
+                <a >
+                    <button onclick="silsilah()" class="dropbtn">
+                    Silsilah Keluarga
+                    </button> 
+                </a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href=""> <img src="list.png" width="27px">
+                        Lihat Silsilah</a>
+                    <a href=""><img src="plus2.png" width="27px">
+                        Buat Silsilah</a>
+                    <a href=""><img src="upload.png" width="27px"> 
+                        Unggah Silsilah</a>
+                </div>
+            </div>    
+            <a class="nav" href="pencarian.html">Pencarian</a>
+            <a class="nav" href="Media.html">Media</a>	
+            <div class="akun">
+                <a>
+                    <button onclick="akun()" class="akunbtn">Akun Saya</button>
+                </a>
+                <div id="akunDropdown" class="dropdown-akun">
+                    <a href=""> <img src="profil.png" width="27px">
+                        Profil</a>
+                    <a href=""><img src="setting.png" width="27px">
+                        Pengaturan</a>
+                    <a href=""><img src="logout.png" width="27px"> 
+                        Keluar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JUDUL -->
+    <div class="judul">
+        <div id="judul">
+            <img src="home.png" alt="">
+             <b>ANDRA BACKBONE'S</b>
+        </div>
+    </div>
+    <!-- KONTEN -->
+    <div class="container">
+        <div class = "konten1">
+            <form action="">
+                <label for="">Siapa</label>
+                <input type="text" class="Siapa" placeholder="Nama Depan">
+                <input type="text" class="Siapa" placeholder="Nama Belakang">
+                <label for="">Kapan</label>	
+                <select class="Kapan" name="">	
+                    <option value=>Lahir</option>
+                    <option value=>Meninggal</option>
+                    <option value=>Lainnya</option>
+                </select>
+                <input type="text" class="Kapan" placeholder="Tahun">
+                <label for="">Dimana</label>
+                <input type="text" class="Siapa" placeholder="Lokasi">
+                <a href=""><input type="submit" value="Mulai Pencarian"></a>
+            </form>
+        </div>
+        <div class = "konten2">
+            <div class="silsilah">
+                <br>
+                <p>Lanjutkan Silsilah Keluargamu</p>    
+                <label for="" class="label"></label>
+                <a href=""><button class="button">Lihat Silsilah</button></a> 
+            </div>
+            
+        </div>
+        <div class = "konten3">
+            <br>
+            <div class="profil">
+                <img src="user male.png" class="gbr3">
+                Andra Backbone
+                <a href=""><button class="button">Lihat Profil</button></a> 
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        &copy; SILSILAHKU<sup>&trade;</sup> 2018
+    </footer>
+<script>
+    /* membuka droopdown */
+    function silsilah() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+    //menutup dropdown
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+    
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+            }
+        }
+        }
+    }
+    /* membuka droopdown */
+    function akun() {
+        document.getElementById("akunDropdown").classList.toggle("show");
+    }
+    //menutup dropdown
+    window.onclick = function(event) {
+        if (!event.target.matches('.akunbtn')) {
+    
+        var dropdowns = document.getElementsByClassName("dropdown-akun");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+            }
+        }
+        }
+    }
+    </script>
+</body>
+</html>

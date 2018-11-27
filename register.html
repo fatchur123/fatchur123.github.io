@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Silsilahku</title>
+     <script src="register.js"></script>
+     <link rel="stylesheet" type="text/css" href="register css.css">
+     <body>
+          <body>
+            <!--Navigasi-->
+            <div class="topnav">
+            <a class="active" href="beranda.html"><img src="logo silsilah.png" height="50px" ></a>
+            <div class="panel">
+                <a class="nav" href=""> Beranda</a>
+                <a class="nav" href="">Silsilah Keluarga</a>
+                <a class="nav" href="">Pencarian</a>
+                <a class="nav" href="">Media</a>   
+            </div>
+            <div class = "sign">
+                <button class="sign in">Masuk</button>
+            </div>
+        </div>
+        <!--Content-->
+        <div class = "konten" >
+            <div class="text">
+            <h2>Daftar</h2>
+            <form class="form" name="bio" method="post" action="">
+                <TABLE>
+                    <input class = "box" placeholder="Nama Depan" name="nama depan"  id="1">
+                    <input class = "box" placeholder="Nama Belakang" name="namabelakang"  id="2">
+                    <input class = "box" placeholder="E-mail" name="email"  id="3">
+                    <input class = "box" placeholder="password" input type="password" name="password" id="4">
+                    <input class="box" placeholder="birthdate" type="date" name="birthdate" id="5">
+                    <select class="box" id="6" name="jenkel"><option>jenis kelamin</option>
+                        <option value="pria">pria</option>
+                        <option value="wanita">wanita</option>
+                    </select ><br></TABLE>
+                    <input type="button" class="daftar1" value="Daftar" onclick="formInput()">     
+                </div>
+        </form>
+        </div>
+        <div class="text2">
+            <h2 class="ke1" >Nama Depan :</h2>
+            <h2 class="ke1" >Nama Belakang :</h2>
+            <h2 class="ke2" >E-mail :</h2>
+            <h2 class="ke3" >Password :</h2>
+            <h2 class="ke4" >Tanggal lahir :</h2>
+            <h2 class="ke5" >Jenis Kelamin :</h2>
+            </div>
+        <table border="1" id="output">
+            <tr>
+                <th>Nama Depan</th>
+                <th>nama Belakang</th>
+                <th>e-mail</th>
+                <th>Password</th>
+                <th>Tanggal Lahir</th>
+                <th>Jenis Kelamin</th>
+                <button id="detail" onclick="look_data()">Lihat Data</button>
+            </tr>
+        </table>
+</body>
+</html>
