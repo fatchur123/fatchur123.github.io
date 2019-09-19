@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	<title>Silsilahku</title>
+</head>
+<body>
+<!--Navigasi-->
+	<div class="topnav">
+		<a class="active" href="#home"><img src="logo silsilah.png" height="50px" ></a>
+		<div class="panel">
+			<a class="nav" href=""> Beranda</a>
+			<a class="nav" href="">Silsilah Keluarga</a>
+			<a class="nav" href="">Pencarian</a>
+			<a class="nav" href="">Media</a>	
+		</div>
+		<div class = "sign">
+			<button class="sign in">Masuk</button>
+			<button class="sign up">Daftar</button>
+		</div>
+	</div>
+<!--Content-->
+<div class = "konten" >
+	<img class ="garis" src="garis.png" height="300px" width="3">
+		<div class="text2">
+				<h2>Abadikan Silsilah Keluargamu.<br>
+					Dengan Mulai Membuat Silsilah Keluarga.</h2>
+				<button class="daftar"> Buat Silsilah </button>
+				
+			</div>
+		<div class="text">
+			<h2>Telusuri Keluargamu.<br>
+				Dan Kenali Siapa Dirimu.</h2>
+			<button class="daftar"> Buat Akun </button>
+		</div>
+	
+	</div>
+<div class = "pencarian">
+	<label class = "judul1">Siapa</label>
+	<label class = "judul2">Kapan</label>
+	<label class = "judul3">Dimana</label>
+		<form class="form">
+			<input class = "box" placeholder="Nama Depan" >
+			<input  class = "box" placeholder="Nama Belakang">
+			<input  class = "box" placeholder="Tahun" >
+			<input  class = "box" placeholder="Lokasi">
+			<button type="submit">Cari</button>
+		  </form>
+</div>
+</body>
+</html>
